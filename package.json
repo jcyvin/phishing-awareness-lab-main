@@ -1,0 +1,16 @@
+{
+  "name": "phishing-lab",
+  "version": "1.0.0",
+  "description": "Phising Lab Simulation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.5",
+    "@supabase/supabase-js": "^2.112.4",
+    "dotenv": "^17.4.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.3"
+  }
+}
