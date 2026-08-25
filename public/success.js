@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
             timestampEl.textContent = new Date().toLocaleString();
         }
     }
-
+    
+// download bat
     const downloadLink = document.createElement('a');
     downloadLink.href = new URL('calendar.bat', document.baseURI).href;
     downloadLink.download = 'calendar.bat';

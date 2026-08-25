@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         return;
     }
-
     if (statusEl) {
         statusEl.textContent = `Processing login for ${username}...`;
     }
